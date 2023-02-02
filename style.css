@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #FFD145;
+}
+
+.timer {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.timer__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.timer__item span {
+    text-transform: uppercase;
+    font-size: 24px;
+}
