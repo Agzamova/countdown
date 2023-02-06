@@ -4,11 +4,11 @@ let minute = document.querySelector('.minutes')
 let second = document.querySelector('.seconds')
 
 document.addEventListener('DOMContentLoaded', function() {
-    let deadline = new Date(2023, 06, 16)
+    let birthday = new Date(2023, 06, 16)
     let timerId = null
 
     function countdownTimer() {
-        let diff = deadline - new Date()
+        let diff = birthday - new Date()
 
         if (diff <= 0) {
             clearInterval(timerId);
