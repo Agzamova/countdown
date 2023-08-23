@@ -4,7 +4,7 @@ let minute = document.querySelector('.minutes')
 let second = document.querySelector('.seconds')
 
 document.addEventListener('DOMContentLoaded', function() {
-    let birthday = new Date(2023, 06, 16)
+    let birthday = new Date(2024, 06, 16)
     let timerId = null
 
     function countdownTimer() {
